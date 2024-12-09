@@ -1,0 +1,107 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    background-image: url("/img/wallpapersden.com_dark-sun-minimal_5120x2880.jpg"), url("https://images.wallpapersden.com/image/download/dark-sun-minimal_bGxsbWeUmZqaraWkpJRqZmdlrWdtbWU.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 0;
+    display: grid;
+    place-content: center;
+}
+
+.lunaleft{
+    height: 25vh;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    margin: 20px;
+    top: 22.5vh;
+    left: 20px
+}
+
+.blackcircleleft{        
+    width: 80%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background-color: black;
+    float: right;
+}
+
+.redBackgrounImgLeft{
+    width: 80%;
+    aspect-ratio: 1/1;
+    background-color: red;
+    border-radius: 50%;
+    float: right;
+    margin: 10px;
+}
+
+.IconPersonajeLeft{           /* aqui esta imagin para primer personaje*/
+    width: 95%;
+    aspect-ratio: 1/1;
+    background-image: url("https://fotografias.larazon.es/clipping/cmsimages02/2024/10/29/7F5B7A43-17D1-4895-B4CD-B07F0238352A/primer-tanque-batalla-mundo-impulsado-hidrogeno-silencioso-furtivo-letal_98.jpg?crop=661,372,x0,y0&width=1900&height=1069&optimize=low&format=webply"); 
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin: 2.5% auto;
+}
+
+
+
+.lunaright{
+    height: 25vh;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    margin: 20px;
+    top: 22.5vh;
+    right: 20px;
+}
+
+.blackcircleRight{        
+    width: 80%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background-color: black;
+    float: left;
+}
+
+.redBackgrounImgRight{
+    width: 80%;
+    aspect-ratio: 1/1;
+    background-color: red;
+    border-radius: 50%;
+    float: left;
+    margin: 10px;
+}
+
+.IconPersonajeRight{            /*aqui esta imagin para segundo personaje */
+    width: 95%;
+    aspect-ratio: 1/1;
+    background-image: url("https://th.bing.com/th/id/R.70756ab5b98b7de352044132e82e465b?rik=JqOHp%2fFDTsQeGQ&pid=ImgRaw&r=0"); 
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin: 2.5% auto;
+}
+
+.vs{
+    height: auto;
+    width: auto;
+    color: aliceblue;
+    font-size: 5em;
+    margin-bottom: 18vh;
+    display: grid;
+    place-content: center;
+    
+}
+
+.nosifer-regular {          /* font para VS */
+    font-family: "Nosifer", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
